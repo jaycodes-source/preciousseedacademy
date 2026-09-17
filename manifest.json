@@ -1,0 +1,9 @@
+{
+  "name": "Precious Seed Academy",
+  "short_name": "Precious Seed",
+  "start_url": "/preciousseedacademy/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1e3a8a",
+  "icons": [{"src":"https://cdn-icons-png.flaticon.com/512/2602/2602414.png","sizes":"512x512","type":"image/png"}]
+}
