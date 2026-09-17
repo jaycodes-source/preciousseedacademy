@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Precious Seed Academy</title>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;box-sizing:border-box;font-family:'Outfit',sans-serif}
+body{background:#f8fafc;color:#1e293b}
+nav{background:white;padding:15px 20px;display:flex;justify-content:space-between;align-items:center;box-shadow:0 2px 10px rgba(0,0,0,.05);position:sticky;top:0;z-index:10}
+nav b{color:#1e3a8a;font-size:20px}
+nav a{text-decoration:none;color:#1e293b;margin-left:15px;font-size:13px;font-weight:600}
+.hero{background:linear-gradient(135deg,#1e3a8a,#3b82f6);color:white;padding:60px 20px;text-align:center}
+.hero h1{font-size:32px} .hero p{margin:15px 0 25px;opacity:.9}
+.btn{background:white;color:#1e3a8a;padding:12px 25px;border-radius:30px;text-decoration:none;font-weight:700;display:inline-block}
+section{padding:35px 20px;max-width:1000px;margin:auto}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:15px}
+.card{background:white;padding:15px;border-radius:18px;box-shadow:0 5px 20px rgba(0,0,0,.05);overflow:hidden}
+.card img{width:100%;height:180px;object-fit:cover;border-radius:12px}
+h2{margin-bottom:15px;color:#1e3a8a}
+.admission{background:#1e3a8a;color:white;border-radius:25px;padding:30px;text-align:center;margin-top:20px}
+footer{background:#0f172a;color:white;text-align:center;padding:25px;font-size:14px}
+@media(max-width:600px){.grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+
+<nav><b>🌱 PSA</b><div><a href="#gallery">Gallery</a><a href="#admission">Apply</a></div></nav>
+
+<div class="hero">
+<h1>Precious Seed Academy</h1>
+<p>Excellence, Character & Godliness</p>
+<a href="#admission" class="btn">Apply Now</a>
+</div>
+
+<section id="gallery">
+<h2>📸 Our School in Pictures</h2>
+<div class="grid">
+<div class="card">
+<img src="class1.jpg" alt="Our Class">
+<b>Conducive Classes</b><p style="font-size:12px;opacity:.7">Spacious & well ventilated</p>
+</div>
+<div class="card">
+<img src="lab.jpg" alt="Science Lab">
+<b>Science Lab</b><p style="font-size:12px;opacity:.7">Practical learning</p>
+</div>
+<div class="card">
+<img src="hall.jpg" alt="School Hall">
+<b>School Hall</b><p style="font-size:12px;opacity:.7">For events & assembly</p>
+</div>
+<div class="card">
+<img src="event.jpg" alt="School Event">
+<b>Events & Activities</b><p style="font-size:12px;opacity:.7">Exciting school life</p>
+</div>
+</div>
+<p style="font-size:12px;margin-top:15px;opacity:.6;text-align:center">If images not showing, make sure file names match exactly: class1.jpg, lab.jpg, hall.jpg, event.jpg</p>
+</section>
+
+<section>
+<h2>Why Choose Us?</h2>
+<div class="grid">
+<div class="card"><b>👨‍🏫 Qualified Teachers</b><p style="font-size:13px;opacity:.7">Best hands for your child</p></div>
+<div class="card"><b>📚 Quality Education</b><p style="font-size:13px;opacity:.7">British + Nigerian</p></div>
+</div>
+<div class="admission" id="admission">
+<h2 style="color:white">Admission Open 2025/26</h2>
+<a href="https://wa.me/2340000000000" class="btn">Chat on WhatsApp</a>
+</div>
+</section>
+
+<footer>© 2026 Precious Seed Academy - Built by JayCodes</footer>
+</body>
+</html>
